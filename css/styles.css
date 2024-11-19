@@ -133,6 +133,17 @@ img
     background-color: #404BBF;
 }
 
+.offer-section
+{
+    padding: 120px 0;
+}
+
+.offer-list
+{
+    display: flex;
+    gap: 24px;
+}
+
 .subsection-title
 {
     font-size: 36px;
