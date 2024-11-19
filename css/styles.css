@@ -10,11 +10,6 @@ img
     display: block;
 }
 
-a
-{
-    display: inline-block;
-}
-
 .header
 {
     border-bottom: 1px solid #E7E9FC;
@@ -23,6 +18,8 @@ a
 .container
 {
     display: flex;
+    width: 1158px;
+    padding: 0 15px;
 }
 
 .navbar
@@ -43,7 +40,7 @@ a
 
     display: inline-block;
     margin-bottom: 16px;
-
+    margin-right: 76px;
 }
 
 .span-top-logo
@@ -55,6 +52,11 @@ a
 {
     display: flex;
     gap: 40px;
+}
+
+.navbar-list-element
+{
+    padding: 24px 0;
 }
 
 .address-list
