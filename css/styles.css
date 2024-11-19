@@ -177,7 +177,7 @@ img
     text-align: center;
 }
 
-.our-team-section
+.team-section
 {
     background-color: #F4F4FD;
 
@@ -199,7 +199,11 @@ img
 .person-desc
 {
     padding: 32px 0;
+}
 
+.portfolio-section
+{
+    padding: 120px 0;
 }
 
 .footer
