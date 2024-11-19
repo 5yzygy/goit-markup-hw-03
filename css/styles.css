@@ -20,6 +20,12 @@ img
     display: flex;
 }
 
+.navbar
+{
+    display: flex;
+    align-items: center;
+}
+
 .logo
 {
     font-family: "Raleway", sans-serif;
@@ -36,7 +42,19 @@ img
     color: #2E2F42;
 }
 
+.navbar-list
+{
+    display: flex;
+    gap: 40px;
+}
+
 .address-list
+{
+    display: flex;
+    gap: 40px;
+}
+
+.address-list-element
 {
     line-height: 1.5;
     letter-spacing: 0.02em;
