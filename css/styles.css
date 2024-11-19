@@ -20,6 +20,7 @@ img
     display: flex;
     width: 1158px;
     padding: 0 15px;
+    margin: 0 auto;
 }
 
 .navbar
@@ -144,6 +145,11 @@ img
     gap: 24px;
 }
 
+.offer-list-element
+{
+    flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
 .subsection-title
 {
     font-size: 36px;
@@ -191,6 +197,12 @@ img
     gap: 24px;
 }
 
+.people-list:first-child
+{
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
 .person
 {
     background-color: #FFFFFF;
@@ -213,6 +225,11 @@ img
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+}
+
+.portfolio-list:first-child
+{
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 /* project description */
