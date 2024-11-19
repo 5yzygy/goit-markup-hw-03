@@ -248,6 +248,11 @@ img
     padding: 100px 0;
 }
 
+.footer .logo
+{
+    display: inline-block;
+}
+
 .span-bottom-logo
 {
     color: #F4F4FD;
