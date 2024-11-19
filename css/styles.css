@@ -60,24 +60,6 @@ img
     padding: 24px 0;
 }
 
-.address-list
-{
-    display: flex;
-    gap: 40px;
-}
-
-.address-list-element
-{
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.address-list:hover, .address-list:focus
-{
-    color: #404BBF;
-}
-
 .navbar-element
 {
     font-weight: 500;
@@ -94,6 +76,24 @@ img
 .email-and-telephone
 {
     font-style: normal;
+}
+
+.address-list
+{
+    display: flex;
+    gap: 40px;
+}
+
+.address-list-element
+{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.address-list:hover, .address-list:focus
+{
+    color: #404BBF;
 }
 
 .title-section
@@ -222,6 +222,8 @@ img
 .person
 {
     background-color: #FFFFFF;
+
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 /* person description */
@@ -243,11 +245,9 @@ img
     row-gap: 48px;
 }
 
-.portfolio-list:first-child
+.portfolio-project
 {
-    flex-basis: calc((100% - 72px) / 4);
-
-    /* width: calc((100% - 3 * 24px) / 4); */
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 /* project description */
