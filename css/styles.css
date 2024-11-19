@@ -169,7 +169,8 @@ img
 
 }
 
-.subsection-description
+/* element description */
+.elem-desc
 {
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -204,6 +205,23 @@ img
 .portfolio-section
 {
     padding: 120px 0;
+}
+
+.portfolio-list
+{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+/* project description */
+.project-desc
+{
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
+    border-top: none;
+    margin-bottom: 8px;
 }
 
 .footer
