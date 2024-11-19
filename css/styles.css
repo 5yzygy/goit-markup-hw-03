@@ -10,6 +10,11 @@ img
     display: block;
 }
 
+a
+{
+    display: inline-block;
+}
+
 .header
 {
     border-bottom: 1px solid #E7E9FC;
