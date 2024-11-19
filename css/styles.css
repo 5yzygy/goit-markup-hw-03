@@ -152,6 +152,8 @@ img
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
+
+    margin-bottom: 72px;
 }
 
 .subsection-element
@@ -176,6 +178,12 @@ img
     background-color: #F4F4FD;
 
     padding: 120px 0;
+}
+
+.people-list
+{
+    display: flex;
+    gap: 24px;
 }
 
 .people
